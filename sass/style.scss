@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,400,500&display=swap');
+@import "../css/bootstrap.min.css";
+
+/*         -------------Flex----------            */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.flex-7 {
+  flex: 7;
+}
+
+/*         -------------Flex----------            */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.text-a-c {
+  text-align: center;
+}
+
+.m-a {
+  margin: auto;
+}
+
+
+/*---------------------- TOTAL -----------------------*/
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+#header {
+  padding-left: 210px;
+}
+
+.container-fluid {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background: darkgray;
+  overflow: hidden;
+
+}
+
+.container {
+  background: #FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1360px;
+}
+
+button {
+  width: 300px;
+  height: 55px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: none;
+}
+
+.receive {
+
+  &_420 {
+    border: none;
+    width: 420px;
+    height: 60px;
+    background: linear-gradient(0deg, #504949, #504949), linear-gradient(270deg, #B9F5E7 0%, #E3FCD2 100%);
+    background-blend-mode: color-burn, normal;
+    padding: 8px;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 404px;
+      height: 44px;
+      border-radius: 8px;
+      border: 1px solid #ffffff7d;
+    }
+  }
+
+}
+
+#header {
+  background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+  .title {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 50px;
+  }
+
+  .text-md {
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    width: 540px;
+    margin-top: 20px;
+  }
+
+  .text-sm {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    margin-top: 56px;
+    margin-bottom: 18px;
+  }
+
+  .col-md-7 img {
+    position: relative;
+    left: -120px;
+    top: 66px;
+    height: 100%;
+  }
+}
+
+.input_reg {
+  width: 200px;
+  height: 45px;
+  padding: 15px;
+  border: none;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-bottom: 18px;
+
+  &:last-child {
+    margin-left: 20px;
+  }
+}
+
+#row_one {
+  .col-md-7 {
+  }
+}
+
+#row_two {
+  text-align: center;
+
+  .row {
+    display: flex;
+    justify-content: center;
+
+    &:last-child {
+      padding: 0 16%;
+    }
+  }
+
+  .title {
+    margin-top: 100px;
+    padding-bottom: 44px;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+
+  img {
+    margin-bottom: 22px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+}
+
+#row_four {
+  padding: 36px 16% 0 16%;
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    margin-bottom: 108px;
+  }
+
+  .text-bg {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  .text-sm {
+    font-size: 14px;
+    line-height: 25px;
+    width: auto;
+    max-width: 80%;
+    letter-spacing: 0.05em;
+  }
+}
+
+#row_five {
+  margin: 0 -15px;
+  background-image: url("../img/row_five.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+
+  .row {
+    text-align: center;
+  }
+
+
+  .col-md-1 {
+    padding: 0;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:not(:first-child) {
+      padding-left: 40px;
+
+      //&:before {
+      //  top: 48%;
+      //  z-index: 0;
+      //  position: absolute;
+      //  content: '';
+      //  background: #fff;
+      //  right: 58px;
+      //  width: 42px;
+      //  height: 8px;
+      //}
+    }
+  }
+
+  .circle {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0 20px 40px rgba(0, 67, 20, 0.1);
+    border-radius: 50%;
+    position: relative;
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: 80%;
+      border-radius: 50%;
+      border: 1px solid #F2F2F2;
+      box-sizing: border-box;
+      font-weight: bold;
+    }
+
+
+  }
+
+  .circle_content {
+    display: flex;
+    position: relative;
+    width: 270px;
+    height: 220px;
+    background: linear-gradient(180deg, #93F5DE 0%, #2CBE89 100%);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+
+    &:before {
+      position: absolute;
+      content: "#1";
+     font-style: italic;
+      font-size: 150px;
+    }
+  }
+}
+
+
+/*---------------------- ДЕВАЙСЫ -----------------------*/
+/*---------------------- ДЕВАЙСЫ -----------------------*/
+
