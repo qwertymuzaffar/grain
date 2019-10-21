@@ -398,7 +398,7 @@ h2{
 
 
 .why{
-  padding: 77px 0 120px;
+  padding: 77px 0 130px;
   background: url(/img/why/bg.svg) no-repeat center top / 1638px auto;
   .container-fluid{
     background-color: transparent;
@@ -447,9 +447,6 @@ h2{
   transform: translateX(0) scale(1);
   filter: blur(0);
   z-index: 5;
-   &:hover{
-    filter: blur(0);
-  }
 }
 .why__slide[data-slide="2"]{
   transform: translateX(82px) scale(.95);
@@ -457,6 +454,7 @@ h2{
   z-index: 4;
    &:hover{
     filter: blur(0);
+    transform: translateX(86px) scale(.95);
   }
 }
 .why__slide[data-slide="3"]{
@@ -465,6 +463,7 @@ h2{
   z-index: 3;
    &:hover{
     filter: blur(0);
+    transform: translateX(164px) scale(.9);
   }
 }
 .why__slide[data-slide="4"]{
@@ -473,6 +472,7 @@ h2{
   z-index: 2;
    &:hover{
     filter: blur(0);
+    transform: translateX(254px) scale(.85);
   }
 }
 .why__slide[data-slide="5"]{
@@ -481,6 +481,7 @@ h2{
   z-index: 1;
    &:hover{
     filter: blur(0);
+    transform: translateX(324px) scale(.8);
   }
 }
 

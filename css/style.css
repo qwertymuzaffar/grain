@@ -289,7 +289,7 @@ h2 {
   margin-bottom: 41px; }
 
 .why {
-  padding: 77px 0 120px;
+  padding: 77px 0 130px;
   background: url(/img/why/bg.svg) no-repeat center top/1638px auto; }
   .why .container-fluid {
     background-color: transparent;
@@ -331,36 +331,38 @@ h2 {
   transform: translateX(0) scale(1);
   filter: blur(0);
   z-index: 5; }
-  .why__slide[data-slide="1"]:hover {
-    filter: blur(0); }
 
 .why__slide[data-slide="2"] {
   transform: translateX(82px) scale(0.95);
   filter: blur(3px);
   z-index: 4; }
   .why__slide[data-slide="2"]:hover {
-    filter: blur(0); }
+    filter: blur(0);
+    transform: translateX(86px) scale(0.95); }
 
 .why__slide[data-slide="3"] {
   transform: translateX(160px) scale(0.9);
   filter: blur(3px);
   z-index: 3; }
   .why__slide[data-slide="3"]:hover {
-    filter: blur(0); }
+    filter: blur(0);
+    transform: translateX(164px) scale(0.9); }
 
 .why__slide[data-slide="4"] {
   transform: translateX(250px) scale(0.85);
   filter: blur(4px);
   z-index: 2; }
   .why__slide[data-slide="4"]:hover {
-    filter: blur(0); }
+    filter: blur(0);
+    transform: translateX(254px) scale(0.85); }
 
 .why__slide[data-slide="5"] {
   transform: translateX(320px) scale(0.8);
   filter: blur(5px);
   z-index: 1; }
   .why__slide[data-slide="5"]:hover {
-    filter: blur(0); }
+    filter: blur(0);
+    transform: translateX(324px) scale(0.8); }
 
 .why__slide {
   text-align: center; }
