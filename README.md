@@ -1,3 +1,3 @@
 # grain
-# npm install
-# gulp server
+1. npm install
+2. gulp serve
